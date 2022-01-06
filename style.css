@@ -4,6 +4,7 @@ body{
 }
 h1{
     font-size: 70px;
+    font-weight: 100px;
 }
 .half-width{
     width: 50%;
@@ -34,7 +35,7 @@ h1{
 }
 .first-section{
     padding-top: 80px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
 }
 .mission-color{
     color: rgba(224, 138, 80, 0.856);
@@ -97,4 +98,55 @@ h1{
 .third-section-right p{
     text-align: justify;
     padding-bottom: 20px;
+}
+.fourth-section{
+    margin-bottom: 150px;
+}
+.fifth-section{
+    margin-bottom: 150px;
+}
+.fifth-section h1{
+    font-size: 50px;
+    font-weight: 100px;
+    text-align: center;
+}
+.form-box{
+    text-align: center;
+    background-color: rgb(78, 144, 231);
+    padding: 50px 100px 100px 100px;
+    margin: 50px 300px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.form-box p{
+    color: whitesmoke;
+    font-weight: 20px;
+}
+.form-box form input[type=text]{
+    width: 50%;
+    padding: 15px 20px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.form-box form input[type=submit]{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 20px 50px;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 40px 20px;
+}
+footer h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 100px;
+}
+footer p{
+    color: white;
+}
+.footer-title-color{
+    color: rgb(221, 63, 63);
 }
